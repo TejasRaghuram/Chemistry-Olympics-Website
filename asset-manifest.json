@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Chemistry-Olympics-Website/static/css/main.38e5d910.css",
-    "main.js": "/Chemistry-Olympics-Website/static/js/main.055ea3d8.js",
+    "main.css": "/Chemistry-Olympics-Website/static/css/main.3a689f30.css",
+    "main.js": "/Chemistry-Olympics-Website/static/js/main.5cbfde01.js",
     "static/js/787.5f91633a.chunk.js": "/Chemistry-Olympics-Website/static/js/787.5f91633a.chunk.js",
     "static/media/SolarCover.png": "/Chemistry-Olympics-Website/static/media/SolarCover.2d6ec9883c95650ed864.png",
     "static/media/SolarChem.png": "/Chemistry-Olympics-Website/static/media/SolarChem.967fb221fc456f8fd78e.png",
@@ -16,14 +16,15 @@
     "static/media/SolarWhat.jpg": "/Chemistry-Olympics-Website/static/media/SolarWhat.86a3a8dd068a5003f780.jpg",
     "static/media/SolarBenefits.jpg": "/Chemistry-Olympics-Website/static/media/SolarBenefits.e3e7d699d744425923f1.jpg",
     "static/media/MapIcon.png": "/Chemistry-Olympics-Website/static/media/MapIcon.f85bf59d16927d40eb38.png",
+    "static/media/SolarLimit.jpg": "/Chemistry-Olympics-Website/static/media/SolarLimit.5b9b1ad57b77bbb23463.jpg",
     "static/media/Close.png": "/Chemistry-Olympics-Website/static/media/Close.86e272247eb6742ff868.png",
     "index.html": "/Chemistry-Olympics-Website/index.html",
-    "main.38e5d910.css.map": "/Chemistry-Olympics-Website/static/css/main.38e5d910.css.map",
-    "main.055ea3d8.js.map": "/Chemistry-Olympics-Website/static/js/main.055ea3d8.js.map",
+    "main.3a689f30.css.map": "/Chemistry-Olympics-Website/static/css/main.3a689f30.css.map",
+    "main.5cbfde01.js.map": "/Chemistry-Olympics-Website/static/js/main.5cbfde01.js.map",
     "787.5f91633a.chunk.js.map": "/Chemistry-Olympics-Website/static/js/787.5f91633a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.38e5d910.css",
-    "static/js/main.055ea3d8.js"
+    "static/css/main.3a689f30.css",
+    "static/js/main.5cbfde01.js"
   ]
 }
