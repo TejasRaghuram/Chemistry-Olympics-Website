@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #303030;
+}
+
+.map {
+    width: 100vw;
+    height: 60vw;
+}
+
+.map_image {
+    width: 80vw;
+    height: 45vw;
+    margin-left: 10vw;
+    margin-top: 5vw;
+    background-color: transparent;
+    object-fit: scale-down;
+}
+
+.map_caution {
+    width: 80vw;
+    margin-left: 10vw;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 18px;
+}
+
+.map_point {
+    width: 4vw;
+    height: 4vw;
+    border-radius: 4vw;
+    position: absolute;
+    background-color: #303030e1;
+    border-style: solid;
+    border-width: .5vw;
+    border-color: white;
+    transition: width .25s, height .25s;
+}
+
+.map_title {
+    width: 15vw;
+    position: absolute;
+    color: white;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 2vw;
+    text-align: center;
+    margin-top: .25vw;
+    opacity: 0;
+    transition: opacity .25s;
+}
+
+.map_body {
+    width: 15vw;
+    height: 15vw;
+    position: absolute;
+    opacity: 0;
+    transition: opacity .25s;
+}
+
+.map_indicator {
+    position: absolute;
+    width: 3vw;
+    height: 3vw;
+    border-radius: .5vw;
+    margin-left: 1.25vw;
+}
+
+.map_text {
+    width: 9vw;
+    margin-left: 4.75vw;
+    position: absolute;
+    color: white;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1.3vw;
+    text-align: center;
+}
+
+.map_point:hover .map_body {
+    opacity: 1;
+}
+
+.map_point:hover .map_title {
+    opacity: 1;
+}
+
+.map_point:hover {
+    width: 15vw;
+    height: 15vw;
+}

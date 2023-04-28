@@ -1,0 +1,832 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.home_page {
+    height: 3100px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.home_subsection_1 {
+    background-color: black;
+    height: 475px;
+}
+
+.home_image_background {
+    width: 100vw;
+    height: calc(475px + 17.63vw);
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;
+}
+
+.home_titles {
+    width: 600px;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+}
+
+.home_hollow_title {
+    width: 500px;
+    height: 80px;
+    color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke: 1px white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    margin-top: 200px;
+    margin-left: 20%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.home_full_title {
+    width: 500px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    margin-left: 20%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.home_subtitle {
+    width: 500px;
+    color: rgb(150, 150, 150);
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    margin-left: 20%;
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+    z-index: 2;
+}
+
+.home_slant_image {
+    width: 550px;
+    height: 450px;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+}
+
+.home_slant_container {
+    float: right;
+    margin-right: 10%;
+    margin-top: 150px;
+}
+
+.home_transition_1 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 17.63vw 100vw;
+    border-color: transparent transparent #303030 transparent;
+    position: absolute;
+    margin-top: 1px;
+    z-index: 1;
+}
+
+.home_subsection_titles {
+    width: 1000px;
+    position: absolute;
+    margin-left: 55vw;
+    margin-top: 10vw;
+}
+
+.home_subsection_title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 72px;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+}
+
+.home_subsection_title_gradient {
+    font-family: 'Roboto', sans-serif;
+    font-size: 72px;
+    background: linear-gradient(to top, rgb(115, 90, 190), rgb(160, 200, 220));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 15px;
+    position: relative;
+    z-index: 2;
+}
+
+.home_subsection_2 {
+    background-color: #303030;
+    height: 1000px;
+    position: relative;
+}
+
+.home_statistics_elements {
+    margin-top: 17.63vw;
+    width: 100vw;
+    z-index: 0;
+    position: relative;
+}
+
+.home_statistics_facts {
+    width: 35vw;
+    height: 300px;
+    margin-left: 10vw;
+    display: inline-block;
+    position: relative;
+    bottom: 40px;
+}
+
+.home_averages {
+    width: 40vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+
+.home_fact_list {
+    margin-top: 20px;
+    width: 40vw;
+}
+
+.home_stats_bullet_spacing {
+    position: relative;
+}
+
+.home_fact {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: white;
+    text-align: left;
+}
+
+.home_statistics_image {
+    width: 40vw;
+    height: 300px;
+    position: relative;
+    margin-left: 5vw;
+    display: inline-block;
+    background-color: transparent;
+}
+
+.home_statistics_statement {
+    width: 35vw;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 10vw;
+    border-radius: 25px;
+    background-color: white;
+    display: inline-block;
+}
+
+.home_statistics_statement_text {
+    width: 25vw;
+    height: 220px;
+    margin-left: 5vw;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #303030;
+    font-weight: bold;
+    position: relative;
+    top: 60px;
+    font-size: 36px;
+}
+
+.home_statistics_table {
+    display: inline-block;
+    width: 40vw;
+    margin-left: 5vw;   
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    position: relative;
+    top: 95px;
+    
+}
+
+th {
+    width: 20vw;
+    height: 50px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: white;
+    border-style: solid;
+    border-color: gray;
+    border-width: 3px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+td {
+    width: 20vw;
+    height: 50px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: white;
+    border-style: solid;
+    border-color: gray;
+    border-width: 3px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.home_transition_2 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8.82vw 0 0 100vw;
+    border-color: transparent transparent transparent #1B1B1B;
+}
+
+.home_subsection_3 {
+    width: 100vw;
+    height: calc(612px + 10vw);
+    background-color: #1B1B1B;
+}
+
+.home_energy_titles {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.home_energy_containers {
+    margin-top: 20px;
+}
+
+.home_energy_container {
+    width: 27.4vw;
+    margin-left: 4vw;
+    height: 500px;
+    display: inline-block;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.3vw;
+    border-radius: 10px;
+}
+
+.home_energy_container_image {
+    width: 300px;
+    height: 300px;
+    margin-left: calc((27.4vw - 300px)/2);
+    margin-top: 50px;
+    object-fit: cover;
+}
+
+.home_energy_title1 {
+    width: 27.4vw;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    background: linear-gradient(to top, rgb(190, 112, 90), rgb(220, 204, 160));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-top: 20px;
+    display: block;
+}
+
+.home_energy_title1:hover {
+    -webkit-text-stroke: 1px white;
+}
+
+.home_energy_title2 {
+    width: 27.4vw;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    background: linear-gradient(to top, rgb(90, 115, 190), rgb(160, 211, 220));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-top: 20px;
+    display: block;
+}
+
+.home_energy_title2:hover {
+    -webkit-text-stroke: 1px white;
+}
+
+.home_energy_title3 {
+    width: 27.4vw;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    background: linear-gradient(to top, rgb(90, 190, 128), rgb(181, 220, 160));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-top: 20px;
+    display: block;
+}
+
+.home_energy_title3:hover {
+    -webkit-text-stroke: 1px white;
+}
+
+.home_energy_subtitle {
+    width: 27.4vw;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+
+.home_transition_3 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 10vw 100vw;
+    border-color: transparent transparent #303030 transparent;
+    position: relative;
+    top: 1px;
+}
+
+.home_map_titles {
+    margin-top: 100px;
+    margin-left: 10%;
+}
+
+#home_map {
+    text-align: left;
+}
+
+.home_map_image {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    position: relative;
+    bottom: 300px;
+    left: 57%;
+}
+
+.home_goto_map {
+    width: 200px;
+    height: 50px;
+    padding-top: 13px;
+    text-align: center;
+    color: white;
+    border-color: white;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 24px;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 2px;
+    position: relative;
+    margin-left: 10%;
+    position: relative;
+    bottom: 450px;
+    text-decoration: none;
+}
+
+.home_goto_map:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1300px) {
+
+    .home_page {
+        height: 5900px;
+    }
+    
+    .home_subsection_1 {
+        height: 850px;
+    }
+
+    .home_image_background {
+        height: calc(849px + 17.63vw);
+    }
+
+    .home_slant_container {
+        margin-top: 50px;
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .home_subsection_titles {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        margin-top: 17.63vw;
+        margin-left: 0px;
+    }
+
+    .home_subsection_2 {
+        height: 1900px;
+    }
+
+    .home_statistics_elements {
+        margin-top: calc(17.63vw + 100px);
+    }
+
+    .home_statistics_facts {
+        position: static;
+        margin-left: 10vw;
+        width: 80vw;
+        display: block;
+    }
+
+    .home_averages {
+        width: 80vw;
+        text-align: center;
+    }
+
+    .home_fact_list {
+        width: 80vw;
+        justify-content: center;
+    }
+
+    .home_fact {
+        text-align: center;
+    }
+
+    .home_statistics_image {
+        width: 750px;
+        height: 400px;
+        bottom: 100px;
+        margin-left: calc((100vw - 750px)/2);
+    }
+
+    .home_statistics_statement {
+        width: 80vw;
+        position: relative;
+        bottom: 100px;
+    }
+
+    .home_statistics_statement_text {
+        width: 70vw;
+        margin-left: 5vw;
+    }
+
+    .home_statistics_table {
+        width: 80vw;    
+        margin-left: 10vw;
+        top: -50px;
+    }
+
+    th {
+        width: 40vw;
+    }
+
+    td {
+        width: 40vw;
+    }
+
+    .home_subsection_3 {
+        height: calc(1753px + 10vw);
+    }
+
+    .home_energy_container {
+        display: block;
+        width: 80vw;
+        margin-left: 10vw;
+        margin-top: 50px;
+    }
+
+    .home_energy_container_image {
+        margin-left: calc((80vw - 300px)/2);
+    }
+
+    .home_energy_title1 {
+        width: 80vw;
+    }
+
+    .home_energy_title2 {
+        width: 80vw;
+    }
+
+    .home_energy_title3 {
+        width: 80vw;
+    }
+
+    .home_energy_subtitle {
+        width: 80vw;
+    }
+
+    .home_map_titles {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    #home_map {
+        text-align: center;
+    }
+
+    .home_map_image {
+        position: static;
+        margin-left: calc((100vw - 500px)/2);
+        margin-top: 25px;
+    }
+    
+    .home_goto_map {
+        position: static;
+        margin-left: calc((100vw - 200px)/2);
+        margin-top: 50px;
+    }
+    
+}
+
+@media (max-width: 870px) {
+
+    #img2 {
+        bottom: 60px;
+    }
+
+    .home_statistics_statement {
+        margin-top: 80px;
+    }
+
+    .home_subsection_2 {
+        height: 1975px;
+    }
+
+    .home_page {
+        height: 5950px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    #img1 {
+        bottom: 25px;
+    }
+
+}
+
+@media (max-width: 960px) {
+
+    .home_subsection_3 {
+        height: calc(1840px + 9.5vw);
+    }
+
+}
+
+@media (max-width: 853px) {
+
+    .home_subsection_2 {
+        height: 2000px;
+    }
+
+    .home_statistics_table {
+        margin-top: 30px;
+    }
+
+    .home_subsection_3 {
+        height: calc(1836px + 10vw);
+    }
+
+}
+
+@media (max-width: 770px) {
+
+    .home_page {
+        height: 4650px;
+    }
+
+    .home_subsection_1 {
+        height: 625px;
+    }
+
+    .home_image_background {
+        height: calc(625px + 17.63vw);
+    }
+
+    .home_hollow_title { 
+        width: 300px;
+        height: 40px;
+        font-size: 64px;
+        margin-left: 10%;
+    }
+
+    .home_full_title {
+        width: 300px;
+        font-size: 64px;
+        margin-left: 10%;
+    }
+
+    .home_subtitle {
+        width: 300px;
+        font-size: 24px;
+        margin-left: 10%;
+    }
+
+    .home_slant_image {
+        width: 338px;
+        height: 263px;
+    }
+
+    .home_slant_container {
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .home_subsection_2 {
+        height: 1300px;
+    }
+
+    .home_subsection_title {
+        font-size: 44px;
+        margin-top: 10px;
+    }
+
+    .home_subsection_title_gradient {
+        font-size: 44px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .home_statistics_elements {
+        margin-top: calc(17.63vw + 70px);
+    }
+
+    .home_statistics_facts {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+
+    .home_averages {
+        width: 80vw;
+        font-size: 24px;
+        margin-top: 160px;
+    }
+
+    #avg2 {
+        position: relative;
+        bottom: 250px;
+    }
+
+    .home_fact {
+        font-size: 18px;
+    }
+
+    .home_fact_list {
+        width: 80vw;
+    }
+
+    .home_statistics_image {
+        width: 330px;
+        height: 200px;
+        margin-left: calc((100vw - 330px)/2);
+    }
+
+    #img1 {
+        bottom: 150px;
+    }
+
+    #img2 {
+        bottom: 350px;
+    }
+
+    .home_statistics_statement {
+        height: 125px;
+        bottom: 370px;
+    }
+
+    .home_statistics_statement_text {
+        top: 15px;
+        font-size: 20px;
+    }
+
+    .home_statistics_table {
+        top: -350px;
+    }
+
+    th {
+        font-size: 24px;
+    }
+
+    td {
+        font-size: 18px;
+    }
+
+    .home_subsection_3 {
+        height: calc(1732px + 9.5vw);
+    }
+
+    .home_energy_title1 {
+        margin-top: 40px;
+        font-size: 28px;
+    }
+
+    .home_energy_title2 {
+        margin-top: 40px;
+        font-size: 28px;
+    }
+
+    .home_energy_title3 {
+        margin-top: 40px;
+        font-size: 28px;
+    }
+
+    .home_energy_subtitle {
+        font-size: 28px;
+    }
+
+    .home_energy_container_image {
+        width: 250px;
+        height: 250px;
+        margin-left: calc((80vw - 250px)/2);
+    }
+
+    .home_map_image {
+        width: 300px;
+        height: 300px;
+        margin-left: calc((100vw - 300px)/2);
+    }
+
+    .home_goto_map {
+        font-size: 18px;
+        height: 36px;
+    }
+
+    .home_push {
+        position: relative;
+        bottom: 250px;
+    }
+    
+}
+
+@media (max-width: 643px) {
+
+    .home_subsection_2 {
+        height: 1350px;
+    }  
+
+    #img1 {
+        bottom: 80px;
+    }
+
+    #avg2 {
+        bottom: 200px;
+    }
+
+}
+
+@media (max-width: 588px) {
+
+    .home_subsection_3 {
+        height: calc(1782px + 9.5vw);
+    }
+
+}
+
+@media (max-width: 560px) {
+
+    .home_statistics_image {
+        bottom: 110px;
+    }
+
+    #img2 {
+        bottom: 300px;
+    }
+
+}
+
+@media (min-width: 1500px) {
+
+    .home_subsection_2 {
+        height: 1100px;
+    }
+
+    .home_page {
+        height: 3300px;
+    }
+
+}
+
+@media (min-width: 1800px) {
+
+    .home_page {
+        height: 3500px;
+    }
+
+}
