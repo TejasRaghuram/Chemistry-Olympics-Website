@@ -1,30 +1,41 @@
 {
   "files": {
-    "main.css": "/Chemistry-Olympics-Website/static/css/main.3a689f30.css",
-    "main.js": "/Chemistry-Olympics-Website/static/js/main.5cbfde01.js",
+    "main.css": "/Chemistry-Olympics-Website/static/css/main.f96d6a85.css",
+    "main.js": "/Chemistry-Olympics-Website/static/js/main.5797b38c.js",
     "static/js/787.5f91633a.chunk.js": "/Chemistry-Olympics-Website/static/js/787.5f91633a.chunk.js",
+    "static/media/Hexagon.png": "/Chemistry-Olympics-Website/static/media/Hexagon.49987225d90048875ebb.png",
     "static/media/SolarCover.png": "/Chemistry-Olympics-Website/static/media/SolarCover.2d6ec9883c95650ed864.png",
     "static/media/SolarChem.png": "/Chemistry-Olympics-Website/static/media/SolarChem.967fb221fc456f8fd78e.png",
+    "static/media/GeoCover.jpg": "/Chemistry-Olympics-Website/static/media/GeoCover.4e20ef0f316e39399241.jpg",
     "static/media/HomeStatistics2.png": "/Chemistry-Olympics-Website/static/media/HomeStatistics2.cd14bc51f62a9c87ece2.png",
     "static/media/HomeBio.png": "/Chemistry-Olympics-Website/static/media/HomeBio.dde0eb9d63c8cf397c38.png",
+    "static/media/GeoChem.png": "/Chemistry-Olympics-Website/static/media/GeoChem.eefb3d72b8d89f432c1a.png",
     "static/media/HomePageTitleCard.png": "/Chemistry-Olympics-Website/static/media/HomePageTitleCard.9d297fac88772421a02b.png",
+    "static/media/GeoLimit.png": "/Chemistry-Olympics-Website/static/media/GeoLimit.da5dadefd0481e9544ae.png",
+    "static/media/GeoBenefits.png": "/Chemistry-Olympics-Website/static/media/GeoBenefits.b54da8c2bff7fd4c3a49.png",
     "static/media/HomeSolar.jpg": "/Chemistry-Olympics-Website/static/media/HomeSolar.aa8a134762addf9b8357.jpg",
+    "static/media/GeoWhat.png": "/Chemistry-Olympics-Website/static/media/GeoWhat.aa918652518eb5c7a176.png",
     "static/media/HomeStatistics.png": "/Chemistry-Olympics-Website/static/media/HomeStatistics.890182ac2ffed38b3f3e.png",
-    "static/media/Map.png": "/Chemistry-Olympics-Website/static/media/Map.927db3afdca53e105b50.png",
+    "static/media/BioWhat.png": "/Chemistry-Olympics-Website/static/media/BioWhat.6d64a2bb8703370b7d14.png",
     "static/media/HomePageBackground.jpeg": "/Chemistry-Olympics-Website/static/media/HomePageBackground.5359e1dfddd36e1d7a61.jpeg",
+    "static/media/Map.png": "/Chemistry-Olympics-Website/static/media/Map.1e29b887cce3a7ac4e72.png",
     "static/media/HomeGeo.jpg": "/Chemistry-Olympics-Website/static/media/HomeGeo.4f57d8efc03b625fde5c.jpg",
+    "static/media/BioChem.png": "/Chemistry-Olympics-Website/static/media/BioChem.a139b0a0c12f3c9c17b2.png",
+    "static/media/BioBenefits.jpg": "/Chemistry-Olympics-Website/static/media/BioBenefits.6d30a001f98af07330cd.jpg",
     "static/media/SolarWhat.jpg": "/Chemistry-Olympics-Website/static/media/SolarWhat.86a3a8dd068a5003f780.jpg",
+    "static/media/BioLimit.jpg": "/Chemistry-Olympics-Website/static/media/BioLimit.df1b5e2ffb4d603eba67.jpg",
+    "static/media/BioCover.jpg": "/Chemistry-Olympics-Website/static/media/BioCover.32e18faa3812e80cb1fd.jpg",
     "static/media/SolarBenefits.jpg": "/Chemistry-Olympics-Website/static/media/SolarBenefits.e3e7d699d744425923f1.jpg",
     "static/media/MapIcon.png": "/Chemistry-Olympics-Website/static/media/MapIcon.f85bf59d16927d40eb38.png",
     "static/media/SolarLimit.jpg": "/Chemistry-Olympics-Website/static/media/SolarLimit.5b9b1ad57b77bbb23463.jpg",
     "static/media/Close.png": "/Chemistry-Olympics-Website/static/media/Close.86e272247eb6742ff868.png",
     "index.html": "/Chemistry-Olympics-Website/index.html",
-    "main.3a689f30.css.map": "/Chemistry-Olympics-Website/static/css/main.3a689f30.css.map",
-    "main.5cbfde01.js.map": "/Chemistry-Olympics-Website/static/js/main.5cbfde01.js.map",
+    "main.f96d6a85.css.map": "/Chemistry-Olympics-Website/static/css/main.f96d6a85.css.map",
+    "main.5797b38c.js.map": "/Chemistry-Olympics-Website/static/js/main.5797b38c.js.map",
     "787.5f91633a.chunk.js.map": "/Chemistry-Olympics-Website/static/js/787.5f91633a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a689f30.css",
-    "static/js/main.5cbfde01.js"
+    "static/css/main.f96d6a85.css",
+    "static/js/main.5797b38c.js"
   ]
 }
